@@ -30,5 +30,46 @@
 //function(){
     //console.log("function expression");
 //}
-let x = (a) =>{console.log(a);}
-x(10);
+//let x = (a) =>{console.log(a);}
+//git remote addx(10);
+//function x() {
+    //let a = 10;
+    //const b =20;
+    //console.log(a , b);
+    //function y() {
+        //let p="JS";
+        //var q = "Reactjs";
+        //console.log(p , q);
+        //function z(){
+            //const username = "ashish";
+            //console.log(username);
+            //console.log(a);
+            //console.log(q);
+        //}
+        //();
+    //}
+    //y();
+//}
+//x();
+//const user = ["ashish" , "nikhil","charan","harshii"];
+//user.push("kanna");
+//console.log(user);
+//
+//user.pop("ashish");
+//console.log(user);
+//
+//user.shift();
+//console.log(user)
+
+let userDetails = {
+    name: "shravan",
+    age: 19,
+    city:"hyd",
+    address:{
+        area:"ramaram",
+        streetno:"1",
+        pincode:"500055"
+    }
+};
+console.log(userDetails);
+console.log(userDetails.address);
