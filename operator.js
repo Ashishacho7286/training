@@ -62,14 +62,71 @@
 //console.log(user)
 
 let userDetails = {
+    id: 2,
     name: "shravan",
-    age: 19,
-    city:"hyd",
-    address:{
-        area:"ramaram",
-        streetno:"1",
-        pincode:"500055"
+    company: "google",
+    address: {
+        city: "hydrabad",
+        area:"nizampet",
     }
 };
-console.log(userDetails);
-console.log(userDetails.address);
+let userDetails2 = {
+    id: 2,
+    name: "ashish",
+    company: "google",
+    address: {
+        city: "hydrabad",
+        area:"nizampet",
+    }
+};
+let userDetails3 = {
+    id: 2,
+    name: "ashish",
+    company: "google",
+    address: {
+        city: "hydrabad",
+        area:"nizampet",
+    }
+};
+//console.log(userDetails);
+//console.log(userDetails.address);
+//console.log(userDetails);
+//console.log(typeof(userDetails));
+//
+//let x = JSON.stringify(userDetails);
+//console.log(x);
+//console.log(typeof(x));
+//
+//let y = JSON.parse(x);
+//console.log(x);
+
+//function fetchUser(){
+//    let res = fetch("userDetails");
+//    //console.log(res);
+//    res
+//    .then((response)=>{
+//        return response.json().then(data=>{
+//            console.log(data);
+//            let store = document.getElementById("userDetails");
+//            userDetails.map((user)=>{
+//                store.innerHTML += `
+//                <tr>
+//                <td>${user.id}</td>
+//                <td>${user.name}</td>
+//                <td>${user.company}</td>
+//                <td>${user.salary}</td>
+//                <td>${user.address}</td>
+//                </tr>
+//                `
+//            })
+//        })
+//    })
+//    .catch(err=>console.log(err))
+//}
+//fetchUser();
+
+//Modules
+export  let  Name ="mru";
+export function greet(){
+    return "good morning students";
+}

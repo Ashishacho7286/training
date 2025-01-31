@@ -55,3 +55,9 @@
  let b =30;
  let c = 10;
  
+ take array each objects which contains ENP ID,ENP NAME,ENP COMPANY,ENP SALARY,ENP ADDRESS
+  where enp address is again an object which contains enp city,enp area. print allthose values 
+  on the ui in the form of table  
+create a Signupform that contains username ,email,password(should be 6 characters),confirm password, 
+once you click on submit button a alert should be popped up on your screen that "form is submitted succefully"
+ and if and only if all the details are correct 
